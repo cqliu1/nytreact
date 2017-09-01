@@ -1,0 +1,32 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "a React-based rendition of the New York Times Article Search application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqliu1/nytreact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cqliu1/nytreact/issues"
+  },
+  "homepage": "https://github.com/cqliu1/nytreact#readme",
+  "dependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.8",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9",
+    "react-router": "^2.4.1",
+    "webpack": "^1.15.0"
+  }
+}
