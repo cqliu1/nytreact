@@ -21,9 +21,9 @@ var IndexRoute = router.IndexRoute;
 // Reference the high-level components
 var Main = require("../components/Main");
 var Search = require("../components/children/Search");
-var Query = require("../components/children/Query");
-var Results = require("../components/children/Results");
-var Saved = require("../components/children/Saved");
+// var Query = require("../components/children/Query");
+// var Results = require("../components/children/Results");
+// var Saved = require("../components/children/Saved");
 
 // Export the Routes
 module.exports = (
@@ -31,10 +31,7 @@ module.exports = (
   // The high level component is the Router component
   <Router history={hashHistory}>
       <Route path="/" component={Main} >
-        <Route component={Search} >
-	        <Route path='/query'component={Query} />
-	        <Route path="/results" component={Results} />
-        </Route>
+        <IndexRoute component={Search} />
       </Route>  
   </Router>
 );
